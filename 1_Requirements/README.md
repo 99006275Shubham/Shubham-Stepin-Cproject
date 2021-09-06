@@ -1,6 +1,6 @@
 # Requirements  
 
-##Introduction 
+# # Introduction 
 
 In this project the user will be able to go through various chapters that are mentioned in this book. It's a user-friendly book, this book contains all aspects of C programming starting from variables till Structures. As we all know that C is highly portable and is used for scripting system applications which form a major part of Windows, UNIX, and Linux operating system. C is a general-purpose programming language and can efficiently work on enterprise applications, games, graphics, and applications requiring calculations, etc. 
 
