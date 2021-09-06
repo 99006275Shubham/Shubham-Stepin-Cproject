@@ -1,0 +1,95 @@
+BREAK STATEMENT
+----------------
+The keyword break allows the programmers to terminate the loop. The break skips from the loop or block in which it is defined. The control then automatically goes to the first 
+statement after the loop or block. The break can be associated with all conditional statements.
+
+We can also use the break statements in the nested loops. If we use the break statement in the innermost loop, then the control of the program is terminated only from the 
+innermost loop.
+
+
+CONTINUE STATEMENT
+-------------------
+The continue statement is exactly opposite of the break statement. The continue statement is used for continuing the next iteration of the loop statements. When it occurs in 
+the loop, it dose not terminate, but it skips the statements after this statement. It is useful when we want to continue the program without executing any part of the program.
+
+
+          BREAK                       |                  CONTINUE
+--------------------------------------|----------------------------------------------
+Exits from current block or loop.     |     Loop takes the next iteration.
+                                      |
+Control passes to the next statement. |   Control passes at the beginning of the loop.
+                                      |
+Terminates the loop.                  |         Never terminates the program.
+                                      |
+                                      |
+
+GOTO STATEMENT
+---------------
+This statement does not require any condition. This is an unconditional control jump. This statement passes control anywhere in the program, i.e. control is transferred to 
+another part of the program without testing any condition. User has to define the goto statement as follows:
+
+goto label;
+
+where, the label name must start with any character.
+
+Here, the label is the position where the control is to be transferred. A few examples are described for the sake of understanding.
+
+
+ PROGRAM/CODE-
+-------------
+
+void main()
+
+{
+
+int nc;
+
+clrscr();
+
+printf(“\nEnter Number of Calls :”);
+
+scanf(“%d”,&nc);
+
+if(nc<100)
+
+goto free;
+
+else if(nc>99 && nc<200)
+
+goto charge1;
+
+else if(nc>199 && nc<300)
+
+goto charge2;
+
+else
+
+goto charge3;
+
+free :
+
+printf(“\n No charges.”);
+
+return;
+
+charge1:
+
+printf(“\n Total Charges : %d Rs.”,nc*1);
+
+return;
+
+charge2:
+
+printf(“\n Total Charges : %d Rs.”,nc*2);
+
+return;
+
+charge3:
+
+printf(“\n Total Charges : %d Rs.”,nc*3);
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO...

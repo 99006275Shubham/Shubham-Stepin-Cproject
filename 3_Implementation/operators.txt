@@ -1,0 +1,5 @@
+1.	Comma and conditional operators
+2.	Arithmetic operators
+3.	Relational operators
+4.	Assignment operators and expressions
+5.	Logical operators

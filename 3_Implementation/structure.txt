@@ -1,0 +1,35 @@
+Every C program contains a number of building blocks known as functions. Each function of it performs a specific task independently.
+
+1. Include Header File Section: C program depends upon some header files for function definition that are used in the program. 
+                                Each header file has extension ‘.h’. The header files are included at the beginning of the program 
+                                in the C language. These files should be included using # include directive as given below.
+                                Examples-- #include<stdio.h> or #include<conio.h>
+
+2. Global Declaration: This section declares some variables that are used in more than one function. These variables are known as 
+                       global variables. This section must be declared outside of all the functions.
+
+3. Function main(): Every program written in C must contain main() and its execution starts at the beginning of this function. 
+                    In ASCII C standard, first line of C program from where program execution begins is written as follows.
+                    'int main(void)'
+                    This is the function definition for main(). Parenthesis followed to main is to tell the user again that
+                    main() is a function. The int main(void) is a function that takes no arguments and returns a value of type int.
+
+4. Declaration Part: The declaration part declares the entire local variables that are used in executable part. Local variable scope
+                     is limited to that function where the local variables are declared. The initializations of variables can also be
+                     done in this section. The initialization means providing initial value to the variables.
+
+5. Executable Part: This part contains the statements following the declaration of the variables. This part contains a set of 
+                    statements or a single statement.
+
+6. Function Call: From the main() a user defined function can be invoked by the user as per need/application.
+
+7. User-defined Function: The functions defined by the user are called user-defined functions. These functions are defined 
+                          outside the main() function.
+
+8. Body of the Function: The statements enclosed within the body of the function (between opening and closing brace) are 
+                         called body of the function.
+
+9. Comments: Comments are not necessary in a program. However, to understand the flow of programs a programmer can insert 
+             comments in the program. Comments are to be inserted by the programmer. It is useful for documentation. The 
+             clarity of the program can be followed if it is properly documented.
+             E.g.- /* comments */

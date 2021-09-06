@@ -1,0 +1,6 @@
+1.	The if statement
+2.	The if-else statement
+3.	The if-else if ladder statements
+4.	The break, goto and continue statements
+5.	The switch statements
+

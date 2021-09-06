@@ -1,0 +1,52 @@
+Another kind of loop structure in C is the while loop. The while loop is frequently used in programs for the repeated execution of statement/s in a loop. Until a certain 
+condition is satisfied the loop statements are executed.
+
+The syntax of while loop is
+
+while(test condition)
+
+{
+
+body of the loop
+
+}
+
+The test condition is indicated at the top and it tests the value of the expression before processing the body of the loop. The test condition may be any expression. The loop 
+statements will be executed till the condition is true, i.e. the test condition is evaluated and if the condition is true, then the body of the loop is executed. When the 
+condition becomes false the execution will be out of the loop.
+
+Here, the block of the loop may contain either a single statement or a number of statements. The same block can be repeated.
+
+The braces are needed only if, the body of the loop contains more than one statement. However, it is good practice to use braces even if the body of the loop contains only 
+one statement.
+
+SAMPLE CODE
+------------
+
+void main()
+
+{
+
+int a=1,sum=0;
+
+clrscr();
+
+while(a<=10)
+
+{
+
+  printf(“%3d”,a);
+
+  sum=sum+a;
+
+  a++;
+
+}
+
+printf(“\n Sum of 10 numbers :%d”,sum);
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO...

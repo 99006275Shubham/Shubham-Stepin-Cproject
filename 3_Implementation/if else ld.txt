@@ -1,0 +1,99 @@
+In this kind of statement, a number of logical conditions are checked for executing various statements. Here, if the first logical condition is true the compiler executes the 
+block followed by first if condition, otherwise it skips that block and checks for next logical condition followed by else-if, if the condition is true the block of statements 
+followed by that if condition is executed. The process is continued until a true condition is occurred or an else block is occurred. If all if conditions become false, it 
+executes the else block. In the if-else-if ladder statement, the else block may or may not have the else block.
+
+In if-else-if ladder statement we do not have to pair if statements with the else statements that is we do not have to remember the number of braces opened like nested if-else. 
+So it is simpler to code than nested if-else and having same effect as nested if-else.
+
+Syntax of if-else-if statement can be given as follows.
+---------------------------------------------------------
+ 
+if(condition)
+
+{
+
+statement 1; /*if block*/
+
+statement 2;
+
+}
+
+else if(condition)
+
+{
+
+statement 3; /*second if block*/
+
+statement 4;
+
+}
+
+else if(condition)
+
+{
+statement 5; /*third if block*/
+
+statement 6;
+
+}
+
+else
+
+{
+
+statement 7; /*else block*/
+
+statement 8;
+
+}
+
+
+Following rules can be described for applying nested if-else-if statements:
+
+1. Nested if-else can be chained with one another.
+2. If the first if condition is false control passes to else-if block where condition is again checked with the next if statement. This process continues till there is no if statement 
+   in the last else block.
+3. If one of the if statements satisfies the condition, other nested else-if statement will not be executed.
+
+ EXAMPLE PROGRAM-
+------------------
+
+void main()
+
+{
+
+int initial,final,consumed;
+
+float total;
+
+clrscr();
+
+printf(“\n Initial & Final Readings :”);
+
+scanf(“%d %d”, &initial, &final);
+
+consumed = final-initial;
+
+if(consumed>=200 && consumed<=500)
+
+total=consumed * 3.50;
+
+else if(consumed>=100 && consumed<=199)
+
+total= consumed * 2.50;
+
+else if(consumed<100)
+
+total=consumed*1.50;
+
+printf(“Total bill for %d unit is %f”,consumed,total);
+
+getche();
+
+}
+
+
+
+DO YOU WANT TO RUN THIS PROGRAM ?
+PRESS 1 FOR YES OR 2 FOR NO...

@@ -1,0 +1,18 @@
+Pointer is a special data-type in C and it is widely used by programmers. Most of the computer language learners feel that the pointer is a puzzling topic and very difficult 
+to understand. However, the pointer enables fast and straightforward execution of a program. With pointers, memory is used most efficiently. C gives more importance to pointers. 
+Hence, it is important to know the operation and applications of pointers. Pointers are used as a tool in C and if you fail to understand it, you will be losing the power of C.
+
+In C, variables are used to hold data values during the execution a program. Every variable when declared occupies certain memory location/s. For example, integer-type variable 
+takes two bytes of memory, character type one byte and float type four. With pointers, one can manipulate memory addresses. It is possible to access and display the address of 
+a memory location of a variable using the ‘&’ operator. Memory is arranged in a series of bytes. These series of bytes are numbered from zero onwards. The number specified to 
+a cell is known as the memory address. Pointer variable stores the memory address of any type of variable. The pointer variable and normal variable should be of the same type. 
+The pointer is denoted by an asterisk (*) symbol.
+
+A byte is nothing but a combination of eight bits as shown in Figures 9.1 and 9.2. The binary numbers 0 and 1 are known as bits. Each byte in the memory is specified with a 
+unique (matchless) memory address. The memory address is an unsigned integer starting from zero to uppermost addressing capacity of the microprocessor. The number of memory 
+locations pointed by a pointer depends on the type of pointer. The programmer should not take care and worry about addressing procedure of variables. The compiler knows and 
+performs the procedure of a pointer. The pointers are either 16 bits or 32 bits long.
+
+The allocation of memory during a program run time is called the dynamic memory allocation. Such type of memory allocation is essential for data structures and can efficiently
+handle it using pointers. Another reason to use pointers is in arrays. Arrays are used to store more values. Actually, the name of array is a pointer. One more reason to use 
+pointers is command-line arguments. Command-line arguments are passed to programs and stored in an array of pointers argv[].

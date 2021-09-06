@@ -1,0 +1,6 @@
+1. Basics of C
+2. Operators and Expressions
+3. Desicion statements
+4. Loop control 
+5. Array
+6. Pointers

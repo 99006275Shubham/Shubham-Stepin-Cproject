@@ -1,0 +1,171 @@
+The switch statement is a multi-way branch statement. In the program, if there is a possibility to make a choice from a number of options, this structured selection is useful. 
+The switch statement requires only one argument of any data type, which is checked with the number of case options. The switch statement evaluates expression and then looks 
+for its value among the case constants. If the value matches with case constant, this particular case statement is executed. If not, default is executed. Here, switch, case 
+and default are reserved keywords. Every case statement terminates with ‘:’. The break statement is used to exit from current case structure. The switch statement is useful 
+for writing the menu-driven program.
+
+
+The syntax of the switch case statement is as follows.
+
+switch(variable or expression)
+
+{
+
+case constant A :
+
+statement;
+
+break;
+
+case constant B :
+
+statement;
+
+break;
+
+default :
+
+statement ;
+
+}
+
+
+1. The switch expression
+   In the block, the variable or expression can be a character or an integer. The integer expression following the keyword switch will yield an integer value only. The integer 
+   may be any value 1, 2, 3, and so on. In case a character constant, the values may be given in the alphabetic order such as ‘x’, ‘y’, ‘z’.
+
+2. The switch organization
+   The switch expression should not be terminated with a semi-colon and/or with any other symbol. The entire case structure following switch should be enclosed with curly braces. 
+   The keyword case is followed by a constant. Every constant terminates with a colon. Each case statement must contain different constant values. Any number of case statements 
+   can be provided. If the case structure contains multiple statements, they need not be enclosed with curly braces. Here, the keywords case and break perform the job of opening 
+   and closing curly braces, respectively.
+
+3. The switch execution
+   When one of the cases satisfies, the statements following it are executed. In case, there is no match, the default case is executed. The default can be put anywhere in the 
+   switch expression. The switch statement can also be written without the default statement. The break statement used in switch causes the control to go outside the switch block. 
+   By mistake, if no break statements are given all the cases following it are executed.
+
+
+
+ SAMPLE PROGRAM
+----------------
+
+void main()
+
+{
+
+int a,b,c,ch;
+
+clrscr();
+
+printf(“\t =================”);
+
+printf(“\n\t MENU”);
+
+printf(“\n\t =================”);
+
+printf(“\n\t[1] ADDITION”);
+
+printf(“\n\t[2] SUBTRACTION”);
+
+printf(“\n\t[3] MULTIPLICATION”);
+
+printf(“\n\t[4] DIVISION”);
+
+printf(“\n\t[5] REMAINDER”);
+
+printf(“\n\t[6] LARGER OUT OF TWO”);
+
+printf(“\n\t=================”);
+
+printf(“\n\n\t ENTER YOUR CHOICE :”);
+
+scanf(“%d”, &ch);
+
+if(ch<=6 & ch>0)
+
+{
+
+   printf(“Enter Two Numbers :”);
+
+   scanf(“%d %d”,&a,&b);
+
+}
+
+   switch ( ch)
+
+   {
+
+      case 1 :
+
+      c=a+b;
+
+      printf(“\n Addtion : %d”,c);
+
+      break;
+
+      case 2 :
+
+      c=a-b;
+
+      printf(“\n Subtraction : %d”,c);
+
+      break;
+
+      case 3 :
+
+      c=a*b;
+
+      printf(“\n Multiplication : %d”,c);
+
+      break;
+
+      case 4 :
+
+      c=a/b;
+
+      printf(“\n Division : %d”,c);
+
+      break;
+
+      case 5 :
+
+      c=a%b;
+
+      printf(“\n Remainder : %d”,c);
+
+      break;
+
+      case 6 :
+
+      if(a>b)
+
+      printf(“\n\t %d (a) is larger than %d (b).”,a,b);
+
+      else
+
+      if(b>a)
+
+      printf(“\n\t %d (b) is larger than %d (a).”,b,a);
+
+      else
+
+      printf(“\n\t %d (a) & %d (b) are same.”,a,b);
+
+      break;
+
+      case 0 :
+
+      printf(“\n Terminated by choice”);
+
+      break;
+
+      default :
+
+      printf(“\n Invalid Choice”);
+
+   }
+
+
+DO YOU WANT TO RUN THIS PROGRAM ?
+PRESS 1 FOR YES OR 2 FOR NO...

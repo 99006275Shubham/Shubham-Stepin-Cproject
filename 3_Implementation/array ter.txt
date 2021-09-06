@@ -1,0 +1,15 @@
+1. Size: Number of elements or capacity to store elements in an array is called its size. It is always mentioned in brackets ([]).
+
+2. Type: Types refer to data type. It decides which type of element is stored in the array. It also instructs the compiler to reserve memory according to data type.
+
+3. Base: The address of the first element (0th) is a base address. The array name itself stores address of the first element.
+
+4. Index: The array name is used to refer to the array element. For example, num[x], num is array name and x is index. The value of x begins from 0 to onwards depending on the 
+          size of the array. The index value is always an integer value.
+
+5. Range: Index of an array i.e. value of x varies from lower bound to upper bound while writing or reading elements from an array. For example, in num[100], the range of index 
+          is 0 to 99.
+
+6. Word: It indicates the space required for an element. In each memory location, computer can store a data piece. The space occupation varies from machine to machine. If the 
+         size of element is more than word (one byte) then it occupies two successive memory locations. The variables of data type int, float, long need more than one byte in 
+         memory.

@@ -1,0 +1,39 @@
+These operators are used to distinguish between two values depending on their relations. These operators provide the relationship between two expressions. If the relation 
+is true then it returns a value 1 otherwise 0 for false.
+
+Operator         Description
+---------       -------------
+
+>                Greater than
+<                Less than
+<=               Less than or equal to
+>=               Greater than or equal to
+==               Equal to
+!=               Not equal to
+
+
+EXAMPLE CODE
+-------------
+
+void main()
+
+{
+
+clrscr();
+
+printf(“\nCondition : Return Values\n” );
+
+printf(“\n10!=10 : %5d”,10!=10);
+
+printf(“\n10==10 : %5d”,10==10);
+
+printf(“\n10>=10 : %5d”,10>=10);
+
+printf(“\n10<=100: %5d”,10<=100);
+
+printf(“\n10!=9 : %5d”,10!=9);
+
+}
+
+DO YOU WANT TO RUN THIS PROGRAM ?
+PRESS 1 FOR YES OR 2 FOR A NO...

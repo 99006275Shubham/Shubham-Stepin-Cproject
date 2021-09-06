@@ -1,0 +1,35 @@
+C uses the keyword if to execute a set of command lines or one command line when the logical condition is true. It has only one option. The sets of command lines are executed 
+only when the logical condition is true.
+
+The if statement contains an expression which is evaluated. If the expression is true it returns 1, otherwise 0. The statement is executed when the condition is true. In case 
+the condition is false, the compiler skips the lines within the if block. The condition is always enclosed within a pair of ­parentheses. The conditional statements should not 
+be terminated with semi-colons (;). The statements following the if statement are normally enclosed within curly braces. The curly braces indicate the scope of the if statement. 
+The default scope is one statement. But it is good practice to use curly braces even if a single statement is used following the if condition.
+
+
+ EXAMPLE CODE
+--------------
+
+void main()
+
+{
+
+int v;
+
+clrscr();
+
+printf(“Enter the number :”);
+
+scanf(“%d”, &v);
+
+if(v<10)
+
+printf(“\nNumber entered is less than 10”);
+
+sleep(2); /* process halts for given value in seconds */
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 2 FOR A NO...

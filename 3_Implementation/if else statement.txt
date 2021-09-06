@@ -1,0 +1,52 @@
+We observed the execution of the if statement in the previous programs. We observed that the if block statements execute only when the condition in if is true. When the condition 
+is false, program control executes the next statement which appears after the if statement.
+
+The if–else statement takes care of the true and false conditions. It has two blocks. One block is for if and it is executed when the condition is true. The other block is of else 
+and it is executed when the condition is false. The else statement cannot be used without if. No multiple else statements are allowed with one if.
+
+The syntax of if–else statement is as follows:
+
+if(the condition is true)
+
+execute the Statement1;
+
+else
+
+execute the Statement2;
+
+
+ SAMPLE CODE
+-------------
+
+void main()
+
+{
+
+int s,d;
+
+clrscr();
+
+printf(“\n Enter a Number :”);
+
+scanf(“%d”,&s);
+
+d=s%10;
+
+if(d==5)
+
+{
+
+  s=s/10;
+
+  printf(“\n Square = %d%d”,s*s++,d*d);
+
+}
+
+else
+
+  printf(“\n Invalid Number”);
+
+}
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 2 FOR NO...

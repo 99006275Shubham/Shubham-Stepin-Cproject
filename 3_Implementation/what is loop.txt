@@ -1,0 +1,36 @@
+A loop is defined as a block of statements, which are repeatedly executed for a certain number of times.
+
+The loops are of two types.
+
+1. Counter-controlled repetition: This is also called the definite repetition action, because the number of iterations to be performed is defined in advance in the program itself. 
+   The steps for performing counter-controlled repetitions are as follows.
+
+   Steps in Loop
+
+a) Loop variable: It is a variable used in the loop.
+
+b) Initialization: It is the first step in which starting and final values are assigned to the loop variable. Each time the updated value is checked by the loop itself.
+
+c) Incrimination/decrimination: It is the numerical value added or subtracted to the variable in each round of the loop. The updated value is compared with the final value and if it 
+   is found less than the final value the steps in the loop are executed.
+
+The above steps are implemented in numerous programs.
+
+Sentinel-controlled repetition : This is also called the indefinite repetition. One cannot estimate how many iterations are to be performed. In this type, loop termination happens on 
+the basis of certain conditions using the decision-making statement.
+
+There are three loops in C-
+1. for loop    2. while loop    3. do-while loop
+
+The for loop statement comprises three actions. These actions are placed in the for statement itself. The three actions are initialize counter, test condition and Re-evaluation 
+parameters, which are included in one statement. The expressions are separated by semi-colons (;). This leads the programmer to visualize the parameters easily. The for statement is 
+equivalent to while and do-while statements. The only difference between for and while is that in the latter case logical condition is tested and then the body of the loop gets executed. 
+However, in the for statement, test is always performed at the beginning of the loop. The body of the loop may not be executed at all times if the condition fails at the beginning.
+
+for (a=10;a<10;a--)
+
+printf(“%d”, a);
+
+For example, in the above two-line program will never execute because the test condition is not proper at the beginning, hence statement following to for loop does not execute.
+
+The do-while loop executes the body of the loop at least once regardless of the logical condition.

@@ -1,0 +1,6 @@
+1. What are pointers
+2. Features of pointers
+3. Pointers and address
+4. Pointer declarations
+5. Operation on pointers
+     

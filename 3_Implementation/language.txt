@@ -1,0 +1,17 @@
+Machine language- It is a computer's natural language, which can be directly understood by the system. This language is machine dependent, i.e. it is not portable.
+                  A program written in 1's and 0's is called a machine language. A binary code is used in a machine language for a specific operation. A set of 
+                  instructions is associated with each computer. It is difficult to communicate with a computer in terms of 1's and 0's. Hence, writing a 
+                  program with machine language is very difficult. Chances of errors are very high and the language is tedious and time-consuming.
+
+Assembly language- Instead of using strings of binary bits in a machine language, programmers started using English-like words as commands that can be easily
+                   interpreted by programmers. In other words, the computer manufacturers started providing English-like words abbreviated as mnemonics that
+                   are similar to binary instructions in machine languages. The program is in alphanumeric instead of 1's and 0's. The  ADD, SUB, MUL, DIV, 
+                   RLC, etc. are examples of some mnemonics.The programs wriiten on any other language other than machine language needs to be converted to 
+                   machine language first. To do so, translators are used for conversion of language.
+
+High-level language- Procedure-oriented languages are high-level languages. These languages are employed for easy and speedy development of a program. The 
+                     disadvantages of assembly language are covered by high-level language. The programmer does not need to remember architecture and 
+                     registers of a CPU for developing a program. The compilers are used to convert high-level language to machine language. C is one 
+                     of the HLL. HLL provides fast program development, easier testing and debugging and efficient portability of a program. 
+
+  

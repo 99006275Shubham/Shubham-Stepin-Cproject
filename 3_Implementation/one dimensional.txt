@@ -1,0 +1,20 @@
+Array elements are stored contiguously in sequence one after the other. The elements of an array are just arranged in one-dimension. They can be shown in a row or column. 
+Single subscript will be used in one-dimensional array to represent its elements.
+
+An example of initialization of an array: - int a[5]; in this initialization of an array is done. The type of variable is integer; its variable name is a and 5 is the size 
+of the array.
+
+The elements of the integer array a[5] are stored in contiguous memory locations. It is assumed that the starting memory location is 2000. Each integer element requires 
+2 bytes. Hence, subsequent element appears after the gap of two locations.
+
+Similarly, the elements of arrays of any data type are stored in contiguous memory location. The only difference is that the number of locations is different for different 
+data types.
+
+Character arrays are called strings. There is a slight difference between an integer array and character array. In character array, NULL (‘\0’) character is automatically 
+added at the end, whereas in integer or other types of arrays, no null/character is placed at the end.
+
+The NULL character acts as the end of the character array. By using this NULL character compiler detects the end of the character array. When compiler reads the NULL 
+character ‘\0’, there is end of character array.
+
+Note: Detailed information about strings (character array) is given in another chapter ‘Strings.’ 
+

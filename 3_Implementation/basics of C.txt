@@ -1,0 +1,6 @@
+1. Introduction to C
+2. Machine , Assembly and High-level language
+3. Assembler ,Compiler and Interpreter
+4. Structure of a C program
+5. Programming Rules
+                     

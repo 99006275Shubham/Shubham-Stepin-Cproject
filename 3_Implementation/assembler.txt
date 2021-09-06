@@ -1,0 +1,23 @@
+A program is a set of instructions for performing a particular task. The computer interprets the instructions as 1's and 0's. A program can be wriiten as assembly language
+as well as high-level language. This written program is known as source program and it is converted into machine language, which is called an object program. A translator 
+is required for such a translation.Program translator translates source code of programming language into machine language-instruction code. Generally, computer programs
+are written in languages like COBOL, C, BASIC and ASSEMBLY LANGUAGE, which should be translated into machine language before execution.
+
+Translators are as follows:
+Assembler
+Compiler
+Interpreter
+
+Assembler: An assembler translates the symbolic codes of programs of an assembly language into machine language instructions. The symbolic language is translated to the 
+           machine code in the ratio of one is to one symbolic instructions to one machine code instructions. Such types of languages are called low-level languages. 
+           The assembler programs translate the low-level language to the machine code. The translation job is performed either manually or with a program called assembler.
+           
+Compiler: Compilers are the translators, which translate all the instructions of the program into  machine  codes,  which  can  be  used  again  and again.The program, 
+          which is to be translated, is called the source program and after translation the object code is generated. The source program is input to the compiler. 
+          The object code is output for the secondary storage device. The entire program will be read by the compiler first and generates the object code. However,
+          in interpreter each line is executed and object code is provided.
+
+Interpreter: Interpreters also come in the group of translators. It helps the user to execute the source program with a few differences as compared to compilers. 
+             The source program is just like English statements in both interpreters and compilers. The interpreter generates object codes for the source program. 
+             Interpreter reads the program line by line, whereas in compiler the entire program is read by the compiler, which then generates the object codes.
+             Interpreter directly executes the program from its source code. 

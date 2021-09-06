@@ -1,0 +1,62 @@
+The syntax of do-while loop in C is as follows.
+
+do
+
+{
+
+statement/s;
+
+}
+
+while(condition);
+
+The difference between the while and do-while loop is the place where the condition is to be tested. In the while loops the condition is tested following the while statement, 
+and then the body gets executed, whereas in the do-while the condition is checked at the end of the loop. The do-while loop will execute at least one time even if the condition 
+is false initially. The do-while loop executes until the condition becomes false. 
+
+ Comparison of the while and do-while loop
+---------------------------------------------
+
+Sr. No. |             while Loop              |           do-while Loop
+________|_____________________________________|____________________________________________ 
+1       | Condition is specified at the top.  |  Condition is mentioned at the bottom.
+        |                                     |
+2       | Body statement/s is/are executed    |  Body statement/s executes even when 
+        | when condition is satisfied.        |  the condition is false.  
+        |                                     |
+3       | No brackets for a single statement. |  Brackets are essential even when a 
+        |                                     |  single statement exits.
+        |                                     |
+4       | It is an entry-controlled loop.     |  It is an exit-controlled loop.
+        |                                     |                                     
+
+
+SAMPLE PROGRAM
+---------------
+
+void main()
+
+{
+
+int i=1;
+
+clrscr();
+
+do
+
+{
+
+  printf(“\n This is a program of do while loop.”);
+
+  i++;
+
+}
+
+while(i<=5);
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO...
+

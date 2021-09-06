@@ -1,0 +1,28 @@
+We can also use loop within loops. In nested for loops one or more for statements are included in the body of the loop. In other words C allows multiple for loops in nested 
+forms. The numbers of iterations in this type of structure will be equal to the number of iteration in the outer loop multiplied by the number of iterations in the inner 
+loop. Given below examples are based on the nested for loops.
+
+
+ SAMPLE CODE
+-------------
+
+int i,j,n,k;
+	scanf("%d",&n);
+	printf("\n");
+	for(i=1;i<=n;i++)
+	{
+		for(j=n;j>i;j--)
+		{
+			printf(" ");
+		}
+		for(k=1;k<=i;k++)
+		{
+		   printf("*");
+        }
+        printf("\n");
+    }
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO...
+

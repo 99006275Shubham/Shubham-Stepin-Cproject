@@ -1,0 +1,50 @@
+                          Assigning a value to a variable is very simple. For example, int x=5; here, 5 is assigned to x and this is carried out by the operator =. The equal sign (=) is used for assignment 
+and hence, the name assignment operator has been given.
+ 
+Some assignment operators:-
+
+=        *=        /=         %=
++=       -=        <<=        >>=
+>>>=     &=        ^=         !=
+
+                         Consider the following example: k=k+3; in this expression, the variable on the left side of = is repeated on the right. The same can be written as follows:
+
+k+=3;
+
+                       The operators = and += are called assignment operators. The binary operators which need two operands to their either side are surely have a corresponding assignment operator 
+operand = to the left side.
+
+Example:
+
+j*=x+1;
+
+or
+
+j=j*(x+1);
+
+
+
+ EXAMPLE CODE 
+--------------
+
+void main()
+
+{
+
+int a,b;
+
+clrscr();
+
+printf(“Enter Any Integer either above 5 or below 5 :-”);
+
+scanf(“%d”, &a);
+
+b=(a>5 ? 3 : 4);
+
+printf(“Calculated Value of b is :- %d”,b);
+
+}
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES AND 2 FOR A NO...
+

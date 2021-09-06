@@ -1,0 +1,95 @@
+                                                            DECLARATION         
+                                                           -------------
+Declaration of a one-dimensional array can be done with data type first, followed by the variable name and lastly the array size is enclosed in square brackets. Array size 
+should be integer constant and it must be greater than zero and data type should be valid C data type.
+
+For example, declaration of one-dimensional array is as follows:
+
+int a[5]; It tells the compiler that ‘a’ is an integer type of an array and its size is five integers. The compiler reserves 2 bytes of memory for each integer array element, 
+i.e. 10 bytes are reserved for storing five integers in the memory. In the same way, an array of differrant data types is declared as follows:
+
+
+char ch[10];
+
+float real[10];
+
+long num[5];
+
+When we declare a variable, for example:
+
+int x;
+
+the variable x is declared and the memory location of two bytes is allocated to it and later a single value can be stored in it.
+
+Every variable has a name, a value assigned to it and it is to be stored in memory location. Hence, from the above, we can say that only one value is assigned to a variable or stored.
+
+The way, we declare one-dimensional array in the same way and can also declare two-dimensional array. Two-dimensional array is a table that contains rows and columns. 
+For Example, int a[3][3]; It informs the compiler that ‘a’ is an integer type of an array and its size is 9 integers. This array is a three-by-three matrix. Its details are given in 
+the two-dimensional array and operations.
+
+Similarly, one can declare the multi-dimensional array as follows: datatype arrayname[size1][size2][size3]--------[sizeN];
+
+For example, the following array declares three-dimensional array: int a[3][3][3];
+
+Its details are given in this chapter under three-or multi-dimensional array title.
+
+
+                                                             INITIALIZATION
+                                                            ----------------
+The array initialization can be done as under:
+
+ 
+
+int a[5]={1,2,3,4,5};
+
+Here, five elements are stored in an array ‘a’. List of elements initialized is shown within the braces. The array elements are stored sequentially in separate locations. Then, the 
+question arises how to call individually to each element from this bunch of integer elements. Reading of the array elements begins from ‘0’. By indicating the position of elements, one 
+can retrieve any element of an array. Array elements are called with array names followed by the element numbers.
+
+a[0] refers to 1st element i.e. 1
+
+a[1] refers to 2nd element i.e. 2
+
+a[2] refers to 3rd element i.e. 3
+
+a[3] refers to 4th element i.e. 4
+
+a[4] refers to 5th element i.e. 5
+
+To store more than one value the programming languages have an in-built data structure called an array.
+
+int num[5];
+In the above declaration, an integer array of five elements is declared. Memories for five integers, i.e. successive 10 bytes, are reserved for the num array. To initialize the num array
+following syntax can be used.
+
+int num[5] = {1,2,4,2,5};
+In the above statement, all elements are initialized. It is also possible to initialize individual element by specifying the subscript number in the square bracket following the array name.
+
+Array elements are accessed as follows:
+
+ 
+
+num[0]=1;
+
+num[1]=2;
+
+num[2]=4;
+
+num[3]=2;
+
+num[4]=5;
+
+The initialization can be done at the compile time or dynamically at the run time. The above is an example of compile time initialization. In the statement (2), declaration and initialization 
+are done at once; in such type of declaration the number of elements (five) is not necessary to mention in the square bracket []. The compiler automatically counts the value initialized and 
+assumes the number of elements initialized as the array size.
+
+In the above array, the element num[0] i.e. 1 is the lowest bound and num[4] i.e. 5 is the last element. In C and C++, there is no bound checking. Hence, the programmer has to check it while 
+accessing or storing elements. Once the array is declared, its lowest bound cannot be changed but the upper bound can be expanded. The array name itself is a constant pointer, and therefore 
+we cannot modify it. Storing elements in contiguous memory locations can expand the upper bound.
+
+The array name itself is a pointer. The array num is pointer to the first element i.e. num contains address of memory location where element 1 is stored. The address stored in the array name 
+is called the base address. Figure 7.2 shows the pictorial representation. To access individual elements, the following syntax is used.
+
+Thus, an array is a collection of elements of the same data type, stored in unique and successive memory locations.
+
+

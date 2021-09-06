@@ -1,0 +1,16 @@
+The theory of the pointer is not complicated. The computer memory is made by the semi-conductor technology. Memory comprises binary cells. Each cell has a capacity to store 
+a bit either 0 or 1. Byte means a unit of 8 bits. Every such byte has a unique memory address
+
+When a variable of any data type is declared, memory according to its data type is reserved.
+
+For example:
+
+int x,y;
+
+char c;
+
+Memory locations are reserved for the variables x, y and c. For an integer variable two bytes each and for character variable one byte is reserved. The locations 65550 and 
+65551 are used to store x, and 65552 and 65553 are used to store y and so on. The starting address for x is 65550 and for y, it is 65552. The character needs only one byte 
+and its location shown in Figure 9.3 is 65554.
+
+

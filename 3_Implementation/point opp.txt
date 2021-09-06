@@ -1,0 +1,1 @@
+Arithmetic operations on pointer variables are also possible. Increment, decrement, prefix and postfix operations can be performed with the pointers. 
