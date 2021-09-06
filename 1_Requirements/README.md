@@ -1,10 +1,10 @@
 # Requirements  
 
-# # Introduction 
+## Introduction 
 
 In this project the user will be able to go through various chapters that are mentioned in this book. It's a user-friendly book, this book contains all aspects of C programming starting from variables till Structures. As we all know that C is highly portable and is used for scripting system applications which form a major part of Windows, UNIX, and Linux operating system. C is a general-purpose programming language and can efficiently work on enterprise applications, games, graphics, and applications requiring calculations, etc. 
 
-Objective 
+## Objective 
 
 The main objectives of this project are: 
 
@@ -16,7 +16,7 @@ To perform operations from user and display the result.
 
   
 
-4 W's and 1 H 
+## 4 W's and 1 H 
 
 Who 
 
@@ -46,13 +46,13 @@ Implemented using structure, pointers, Enum and other functionalities of C.
 
   
 
-Basic requirements that are very essential are: 
+## Basic requirements that are very essential are: 
 
  1-gcc compiler with a good system. 
 
 2-Any of the two linux/windows. 
 
-HIGH LEVEL REQUIREMENTS: 
+## HIGH LEVEL REQUIREMENTS: 
 
 High-level or Stream-level I/O 
 
@@ -68,7 +68,7 @@ When using the I/O functions high-level I/O is slower as compared to the low-lev
 
  
 
-LOW LEVEL REQUIREMENTS: 
+## LOW LEVEL REQUIREMENTS: 
 
 Provides direct access to files and devices. 
  
