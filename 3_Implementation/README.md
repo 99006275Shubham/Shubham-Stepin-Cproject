@@ -4,9 +4,9 @@
 Folder	description
 inc	All header files
 src	All the source codes required for the code
-test	test file is placed here.
-build	Build output (Not included in git)
-Screenshots	Screenshots of the applications are present here.
+test	 file is placed here.
+build	 output (Not included in git)
+Screenshots	 of the applications are present here.
 # code output
 ![Screenshot (88)](https://user-images.githubusercontent.com/89966378/132355320-35c73143-5ae0-4eba-9043-8bf64b6fbeaf.png)
 
