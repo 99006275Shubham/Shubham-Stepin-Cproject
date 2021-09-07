@@ -1,0 +1,19 @@
+C is one of the most popular general-purpose programming languages. C language has been designed and developed by Dennis Ritchie at Bell Laboraties,
+USA, in 1972. 
+
+The C language is not tied to any particular operating system. It can be used to develop new operating systems. The C language is closely related to 
+UNIX operating systems. C runs under a no. of operating systems like MS-DOS. The C programs are efficient, fast and highly portable, i.e. C programs
+written on one computer can be run on another with mere or almost no modification. The C program contains modules called functions thar are building
+blocks of the program. C language is a middle-level language ,as it combines the features of a high-level language and functionality like high- and 
+low-level languages .
+ 
+C is a structural language. It has many similarities with the other structural languages like Pascal and Fortran. It is easy for writing, testing,
+debugging and maintenance with structured programming. C is also caleed a system-programming nlanguage because it is greatly helpful for writing 
+O.S., interpreter, editors, compilers, database programs and network drivers.
+
+C also provides control-flow statements such as decision-making statements (if, if-else) and multi choics statements (switch and if-else-if). It 
+also provides for, while and do-while looping statements. 
+
+C is not a strongly typed language. But typed statements are checked thoroughly by C compilers. The compiler will issue errors and warning messages
+when syntax rules are violated. There is no automatic conversion of incompatible data types. A programmer has to perform explicit type conversion. 
+   

@@ -1,0 +1,42 @@
+The logical relationship between the two expressions is tested with logical operators. Using these operators, two expressions can be joined. After checking the conditions, 
+it provides logical true (1) or false (0) status. The operands could be constants, variables and expressions.
+ 
+Some logical operators :-
+
+Operator              Description
+---------            -------------
+
+&&                   Logical AND
+||                   Logical OR
+!                    Logical NOT
+
+Following rules can be followed for logical operators:
+
+1. The logical AND (&&) operator provides true result when both expressions are true, otherwise 0.
+2. The logical OR (||) operator provides true result when one of the expressions is true, otherwise 0.
+3. The logical NOT operator (!) provides 0 if the condition is true, otherwise 1.
+
+
+EXAMPLE CODE
+-------------
+
+void main()
+
+{
+
+clrscr();
+
+printf(“\nCondition : Return Values\n” );
+
+printf(“\n5>3 && 5<10 : %5d”,5>3 && 5<10);
+
+printf(“\n 8>5 || 8<2 : %5d”,8>5 || 8<2);
+
+printf(“\n !(8==8) : %5d”,!(8==8));
+
+}
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 2 FOR A NO...
+
+

@@ -1,0 +1,6 @@
+1. Introduction
+2. Array declaration and initialization
+3. Array terminology
+4. Characteristics of an array
+5. One-dimensional
+

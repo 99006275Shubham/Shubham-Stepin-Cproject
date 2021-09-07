@@ -1,0 +1,47 @@
+The for loop allows to execute a set of instructions until a certain condition is satisfied. Condition may be predefined or open-ended.
+
+The for statement contains three expressions which are separated by semi-colons. Following actions are to be performed in the three expressions.
+
+Syntax of for loop-
+-------------------
+
+for(initialize counter; test condition; re-evaluation parameter)
+
+{
+
+statement1;
+
+statement2;
+
+}
+
+1. The initialize counter sets to an initial value. This statement is executed only once.
+
+2. The test condition is a relational expression, that determines the number of iterations desired or determines when to exit from the loop. The ‘for’ loop continues to execute as 
+   long as conditional test is satisfied. When the condition becomes false the control of the program exits from the body of the ‘for’ loop and executes next statement after the 
+   body of the loop.
+3. The re-evaluation parameter decides how to make changes in the loop (increment or decrement operations are to be used quite often). The body of the loop may contain either a 
+   single statement or multiple statements. In case, there is only one statement after the for loop, braces may not be necessary. In such a case, only one statement is executed 
+   till the condition is satisfied. It is good practice to use braces even for single statement following the for loop.
+
+
+ EXAMPLE CODE
+--------------
+
+void main()
+
+{
+
+int i;
+
+clrscr();
+
+for(i=1;i<=5;i++)
+
+printf(“\n Number: %5d it’s Square: %5d”,i,i*i);
+
+}
+
+
+DO YOU WANT TO RUN THIS CODE ?
+PRESS 1 FOR YES OR 0 FOR NO...

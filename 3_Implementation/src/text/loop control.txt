@@ -1,0 +1,5 @@
+1.	What is loop
+2.	The for loop 
+3.	Nested for
+4.	The while loop
+5.	The do-while loops

@@ -1,0 +1,38 @@
+Comma Operator (,): The comma operator is used to separate two or more expressions. The comma operator has the lowest priority among all the operators. It is not essential 
+to enclose the expressions with comma operators within the parentheses. For example, the following statements are valid.
+
+Example:
+a=2,b=4,c=a+b;
+
+Conditional Operator (?): The conditional operator contains condition followed by two statements or values. The condition operator is also called the ternary operator. If the 
+condition is true, the first statement is executed, otherwise the second statement is executed.
+Conditional operators (?) and (:) are sometimes called ternary operators because they take three arguments. The syntax of the conditional operator is as follows:
+
+Syntax:
+
+Condition ? (expression1) : (expression2);
+
+Two expressions are separated by a colon. If the condition is true expression 1 gets evaluated, otherwise expression 2 gets evaluated. The condition is always written before 
+the ? mark.
+
+
+Example--
+-----------
+
+void main()
+
+{
+
+clrscr();
+
+printf(“Result = %d”,2==3 ? 4 : 5 );
+
+}
+
+
+
+DO U WANT TO RUN THIS CODE?
+PRESS 1 FOR YES OR 2 FOR A NO....
+
+
+

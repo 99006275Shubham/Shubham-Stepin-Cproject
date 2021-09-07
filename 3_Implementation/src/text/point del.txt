@@ -1,0 +1,27 @@
+Pointer variables can be declared as follows.
+
+Example:
+
+int *x;
+float *f;
+char *y;
+
+1. In the first statement, ‘x’ is an integer pointer and tells the compiler that it holds the address of any integer variable. In the same way, ‘f ’ is a float pointer which 
+   stores the address of any float variable and ‘y’ is a character pointer that stores the address of any character variable.
+2. The indirection operator (*) is also called the dereferencing operator. When a pointer is dereferenced, the value at that address stored by the pointer is retrieved.
+
+3. Normal variable provides direct access to their own values, whereas a pointer provides indirect access to the values of the variable whose address it stores.
+
+4. The indirection operator (*) is used in two distinct ways with pointers, declaration and dereference.
+
+5. When a pointer is declared, a star (*) indicates that it is a pointer and not a normal variable.
+
+6. When the pointer is dereferenced, the indirection operator indicates that the value at that memory location stored in the pointer is to be accessed rather than the address 
+   itself.
+
+7. Also note that * is the same operator that can be used as the multiplication operator. The compiler knows which operator to call, based on the context.
+
+8. ‘&’ is the address operator and represents the address of the variable. %u is used with the printf() for printing the address of a variable. The address of any variable is 
+   a whole number. The operator ‘&’ immediately preceding the variable returns the address of the variable. In the below given example, ‘&’ is immediately preceding the variable 
+   ‘num’ which provides the address of the variable.
+

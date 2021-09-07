@@ -1,0 +1,48 @@
+1. The Declaration int a[5] is nothing but creation of five variables of integer types in memory. Instead of declaring five variables for five values, the programmer can 
+   define them in an array.
+
+2. All the elements of an array share the same name, and they are distinguished from one another with the help of the element number.
+
+3. The element number in an array plays a major role for calling each element.
+
+4. Any particular element of an array can be modified separately without disturbing the other elements.
+ 
+int a[5]={1,2,3,4,8};
+
+If a programmer needs to replace 8 with 10, then it need not require changing all other numbers except 8. To carry out this task, the statement a[4]=10 can be used. Here,
+other four elements are not disturbed.
+
+5. Any element of an array a[] can be assigned/equated to another ordinary variable or array variable of its type.
+
+   Example:
+
+   b= a[2];
+   a[2]=a[3];
+
+   (a) In the statement b=a[2] or vice versa, the value of a[2] is assigned to ‘b’, where ‘b’ is an integer.
+   (b) In the statement a[2]=a[3] or vice versa, the value of a[2] is assigned to a[3], where both the elements are of the same array.
+   (c) The array elements are stored in continuous memory locations.
+
+6. Array elements are stored in contiguous memory locations.
+
+7. Once the array is declared, its lowest boundary cannot be changed but upper boundary can be expanded. The array name itself is a constant pointer and we cannot modify 
+   it. Therefore, the lowest boundary of an array cannot be expanded. In other words, even if the boundary exceeds than specified, nothing happens. The compiler throws no 
+   errors.
+
+8. We know that an array name itself is a pointer. Though it is a pointer, it does not need ‘*’ operator. The brackets ([]) automatically denote that the variable is a 
+   pointer.
+
+9. All the elements of an array share the same name, and they are distinguished from one another with the help of the element number.
+
+10. The amount of memory required for an array depends upon the data type and the number of elements. The total size in bytes for a single dimensional array is computed 
+    as shown below:
+ 
+    Total bytes=sizeof(data type) X size of array
+ 
+
+11. The operation such as insertion, deletion of an element can be done with the list but cannot be done with an array. Once an array is created, we cannot remove or 
+    insert memory location. An element can be deleted, replaced but the memory location remains as it is.
+
+12. When an array is declared and not initialized, it contains garbage values. If we declared an array as static, all elements are initialized to zero. However, the 
+    values of static type data persist and remain in the memory as long as program executes. To overcome this problem, initialize first element of an array with zero or 
+    any number. Remaining all elements are automatically initialized to zero, provided the initialization is done in the declaration statement of an array.

@@ -1,0 +1,17 @@
+A programmer while writing a program should follow the following rules:
+
+1. Every program should have main() function.
+
+2. C statements should be terminated by a semi-colon. At some places, a comma operator is permitted. If only a semi-colon is placed it is treated as a statement.
+
+3. An unessential semi-colon if placed by the programmer is treated as an empty statement.
+
+4. All statements should be written in lowercase letters. Generally, uppercase letters are used only for symbolic constants.
+
+5. Blank spaces may be inserted between the words. This leads to improvement in the readability of the statements. However, this is not applicable while declaring
+   a variable, keyword, constant and function.
+
+6. It is not necessary to fix the position of statement in the program; i.e. a programmer can write the statement anywhere between the two braces following the 
+   declaration part. The user can also write one or more statements in one line separating them with a semi-colon (;). Hence, it is often called a free-form language.
+
+7. The opening and closing braces should be balanced, i.e. if opening braces are four; closing braces should also be four.

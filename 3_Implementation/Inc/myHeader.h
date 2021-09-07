@@ -1,9 +1,9 @@
 /**
  * @file myHeader.h
- * @author Debashish Dash (E book on C@domain.com)
- * @brief this header file contains all the functions tha are used in the men method of the main c file
+ * @author Shubham (E book on C@domain.com)
+ * @brief this header file contains all the functions tha are used in the main method of the main c file
  * @version 0.1
- * @date 2021-04-14
+ * @date 2021-09-7
  * 
  * @copyright Copyright (c) 2021
  * 
@@ -77,9 +77,24 @@ void String();
  */
 void Suggestion();
 
-int my_test(int a, int b);
-int my_test(int a, int b){
-	return a+b;
+/**
+ * @brief function declaration for test cases for test.c
+ * 
+ * @param i 
+ * @param j 
+ * @return int 
+ */
+int my_test(int i, int j);
+
+/**
+ * @brief function defination for test cases for test.c
+ * 
+ * @param i 
+ * @param j 
+ * @return int 
+ */
+int my_test(int i, int j){
+	return i-j;
 }
 
 #endif

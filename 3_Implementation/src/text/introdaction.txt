@@ -1,0 +1,8 @@
+An array is a very popular and useful data structure used to store data elements in successive memory locations. More than one element is stored in a sequence, so it is also 
+called a composite data structure. An array is a linear and homogeneous data structure. An array permits homogeneous data. It means that similar types of elements are stored 
+contiguously in the memory and that too under one variable name. It can be combined with a non-homogeneous structure, and a complex data structure can be created. We know 
+that an array of structure objects can also be useful. An array can be declared of any standard or custom data type. The array of character (strings) type works somewhat 
+differently from an array of integers, floating numbers.
+
+
+
