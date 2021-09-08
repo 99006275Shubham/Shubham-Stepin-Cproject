@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <conio.h>
 
 // Function Declaration
 void ch1(), ch2(), ch3(), ch4(), ch5(), ch6(), list(), backmain();
